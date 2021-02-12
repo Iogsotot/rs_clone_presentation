@@ -1,0 +1,49 @@
+.avatar {
+  height: 80px;
+  width: 80px;
+  /* margin-right: 15px; */
+
+  border-radius: 50%;
+  background-size: contain;
+  &.Iogsotot {
+    background-image: url("https://avatars.githubusercontent.com/u/50149163?s=400&u=9a763fefd25839d62bec939ad7302d8a29948cb4&v=4");
+  }
+  &.DenisAfa {
+    background-image: url("https://avatars.githubusercontent.com/u/64201928?s=400&u=b33f2c5f182a021649e8ac548259a05dc3ed792e&v=4");
+  }
+  &.Abdulloh76 {
+    background-image: url("https://avatars.githubusercontent.com/u/59783836?s=400&v=4");
+  }
+  &.mrINEX {
+    background-image: url("https://avatars.githubusercontent.com/u/35580404?s=400&u=742a3a17f24933ff191b620cf949e6f1b872e20a&v=4");
+  }
+}
+
+.team {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  border: 2px solid #ebc993;
+  background-color: #f7e9a7b6;
+
+  border-radius: 15px;
+  margin: auto;
+}
+
+.team-people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 190px;
+  margin: 3px;
+  padding: 2px;
+
+  // border: 2px solid #d0a763;
+  // background-color: #e3b872;
+
+  font-size: 20px;
+  text-decoration: none;
+
+  transition: all 250ms linear;
+}
